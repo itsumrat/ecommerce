@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <a href="https://yarnpkg.com/">
     <img alt="Yarn" src="https://github.com/yarnpkg/assets/blob/master/yarn-kitten-full.png?raw=true" width="546">
@@ -58,3 +59,7 @@ Yarn wouldn't exist if it wasn't for excellent prior art. Yarn has been inspired
 ## Credits
 
 Thanks to [Sam Holmes](https://github.com/samholmes) for donating the npm package name!
+=======
+# ecommerce
+an e-commerce built with PHP
+>>>>>>> a2355b4f512d3e1e38ad1738f6a0f16ec46f151a
