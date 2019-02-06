@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\DC\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+  C:\Program Files\nodejs\node.exe E:\xampp\htdocs\ecommerce\bin\yarn.js init
 
 PATH: 
-  C:\Users\DC\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\DC\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;E:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs;C:\Users\DC\AppData\Roaming\Composer\vendor\bin;C:\Users\DC\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+  C:\Users\DC\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\DC\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;E:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs;E:\xampp\htdocs\ecommerce\bin;C:\Users\DC\AppData\Roaming\Composer\vendor\bin;C:\Users\DC\AppData\Roaming\npm;C:\Users\DC\AppData\Local\Yarn\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
 
 Yarn version: 
   1.13.0
@@ -14,12 +14,17 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: Can't answer a question unless a user TTY
-      at ConsoleReporter.question (C:\Users\DC\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:96071:59)
-      at Object.<anonymous> (C:\Users\DC\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:88459:38)
-      at Generator.next (<anonymous>)
-      at step (C:\Users\DC\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:304:30)
-      at C:\Users\DC\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:315:13
+  Error: canceled
+      at Interface.<anonymous> (E:\xampp\htdocs\ecommerce\lib\cli.js:125657:13)
+      at Interface.emit (events.js:189:13)
+      at Interface._ttyWrite (readline.js:783:16)
+      at ReadStream.onkeypress (readline.js:168:10)
+      at ReadStream.emit (events.js:189:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1022:36)
+      at ReadStream.emit (events.js:189:13)
+      at addChunk (_stream_readable.js:284:12)
 
 npm manifest: 
   {
