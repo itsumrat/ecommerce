@@ -1,10 +1,10 @@
 {
-  "name": "yarn",
+  "name": "itsumrat/ecommerce",
   "installationMethod": "msi",
-  "version": "1.13.0",
+  "version": "1.0.0",
   "license": "BSD-2-Clause",
   "preferGlobal": true,
-  "description": "📦🐈 Fast, reliable, and secure dependency management.",
+  "description": "ECommerce Platform using PHP",
   "resolutions": {
     "sshpk": "^1.14.2"
   },
